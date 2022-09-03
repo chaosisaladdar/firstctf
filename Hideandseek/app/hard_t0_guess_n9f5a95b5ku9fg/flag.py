@@ -1,1 +1,1 @@
-flag = "hctf2018{moxiaoxi666}"
+flag = "flag{you_find_me_icbc}"
