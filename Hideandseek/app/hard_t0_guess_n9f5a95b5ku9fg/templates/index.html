@@ -84,7 +84,7 @@
         {% if user %}
         <br>
         <br>
-        <h1>Hello, {{ user }}. </h1>
+        <h1>Hi, {{ user }}. </h1>
 
         {% if user == 'admin' %}
         Your flag: <br>
@@ -93,7 +93,7 @@
         {% else %}
         <br>
         <br>
-        <h3>I will tell you a secret, but you should upload a zipfile first.</h3>
+        <h3>Upload a zipfile and see what will happen.</h3>
         <br>
         <br>
         <form action="/upload" method="post"
@@ -111,7 +111,7 @@
         <br>
         <br>
         <br>
-        <h1>For more information, please login.</h1>
+        <h1>Please login.</h1>
 
         {% endif %}
         </p>

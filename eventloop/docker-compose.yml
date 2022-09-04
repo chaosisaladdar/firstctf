@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  web:
+    build: .
+    image: challenge_ddctf_2019_web_homebrew_event_loop_base
+    restart: always
+    ports:
+      - "8085:80"
+    environment:
+      - FLAG=flag{3v41_3v3nt_100p_aNd_fLASK_c0Ok1e}
